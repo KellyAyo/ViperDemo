@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5160A1DC24D1A24300CD7B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160A1DB24D1A24300CD7B6D /* AppDelegate.swift */; };
+		5160A1DE24D1A24300CD7B6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160A1DD24D1A24300CD7B6D /* SceneDelegate.swift */; };
+		5160A1E024D1A24300CD7B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160A1DF24D1A24300CD7B6D /* ViewController.swift */; };
+		5160A1E324D1A24300CD7B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160A1E124D1A24300CD7B6D /* Main.storyboard */; };
+		5160A1E524D1A24700CD7B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5160A1E424D1A24700CD7B6D /* Assets.xcassets */; };
+		5160A1E824D1A24700CD7B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5160A1E624D1A24700CD7B6D /* LaunchScreen.storyboard */; };
+		5160A1F324D1A24700CD7B6D /* viperDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160A1F224D1A24700CD7B6D /* viperDemoTests.swift */; };
+		5160A1FE24D1A24700CD7B6D /* viperDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5160A1FD24D1A24700CD7B6D /* viperDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5160A1EF24D1A24700CD7B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5160A1D024D1A24200CD7B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5160A1D724D1A24200CD7B6D;
+			remoteInfo = viperDemo;
+		};
+		5160A1FA24D1A24700CD7B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5160A1D024D1A24200CD7B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5160A1D724D1A24200CD7B6D;
+			remoteInfo = viperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5160A1D824D1A24200CD7B6D /* viperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5160A1DB24D1A24300CD7B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5160A1DD24D1A24300CD7B6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5160A1DF24D1A24300CD7B6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5160A1E224D1A24300CD7B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5160A1E424D1A24700CD7B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5160A1E724D1A24700CD7B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5160A1E924D1A24700CD7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5160A1EE24D1A24700CD7B6D /* viperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5160A1F224D1A24700CD7B6D /* viperDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperDemoTests.swift; sourceTree = "<group>"; };
+		5160A1F424D1A24700CD7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5160A1F924D1A24700CD7B6D /* viperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5160A1FD24D1A24700CD7B6D /* viperDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperDemoUITests.swift; sourceTree = "<group>"; };
+		5160A1FF24D1A24700CD7B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5160A1D524D1A24200CD7B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5160A1EB24D1A24700CD7B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5160A1F624D1A24700CD7B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5160A1CF24D1A24200CD7B6D = {
+			isa = PBXGroup;
+			children = (
+				5160A1DA24D1A24200CD7B6D /* viperDemo */,
+				5160A1F124D1A24700CD7B6D /* viperDemoTests */,
+				5160A1FC24D1A24700CD7B6D /* viperDemoUITests */,
+				5160A1D924D1A24200CD7B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5160A1D924D1A24200CD7B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5160A1D824D1A24200CD7B6D /* viperDemo.app */,
+				5160A1EE24D1A24700CD7B6D /* viperDemoTests.xctest */,
+				5160A1F924D1A24700CD7B6D /* viperDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5160A1DA24D1A24200CD7B6D /* viperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5160A1DB24D1A24300CD7B6D /* AppDelegate.swift */,
+				5160A1DD24D1A24300CD7B6D /* SceneDelegate.swift */,
+				5160A1DF24D1A24300CD7B6D /* ViewController.swift */,
+				5160A1E124D1A24300CD7B6D /* Main.storyboard */,
+				5160A1E424D1A24700CD7B6D /* Assets.xcassets */,
+				5160A1E624D1A24700CD7B6D /* LaunchScreen.storyboard */,
+				5160A1E924D1A24700CD7B6D /* Info.plist */,
+			);
+			path = viperDemo;
+			sourceTree = "<group>";
+		};
+		5160A1F124D1A24700CD7B6D /* viperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5160A1F224D1A24700CD7B6D /* viperDemoTests.swift */,
+				5160A1F424D1A24700CD7B6D /* Info.plist */,
+			);
+			path = viperDemoTests;
+			sourceTree = "<group>";
+		};
+		5160A1FC24D1A24700CD7B6D /* viperDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5160A1FD24D1A24700CD7B6D /* viperDemoUITests.swift */,
+				5160A1FF24D1A24700CD7B6D /* Info.plist */,
+			);
+			path = viperDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5160A1D724D1A24200CD7B6D /* viperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5160A20224D1A24700CD7B6D /* Build configuration list for PBXNativeTarget "viperDemo" */;
+			buildPhases = (
+				5160A1D424D1A24200CD7B6D /* Sources */,
+				5160A1D524D1A24200CD7B6D /* Frameworks */,
+				5160A1D624D1A24200CD7B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viperDemo;
+			productName = viperDemo;
+			productReference = 5160A1D824D1A24200CD7B6D /* viperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5160A1ED24D1A24700CD7B6D /* viperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5160A20524D1A24700CD7B6D /* Build configuration list for PBXNativeTarget "viperDemoTests" */;
+			buildPhases = (
+				5160A1EA24D1A24700CD7B6D /* Sources */,
+				5160A1EB24D1A24700CD7B6D /* Frameworks */,
+				5160A1EC24D1A24700CD7B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5160A1F024D1A24700CD7B6D /* PBXTargetDependency */,
+			);
+			name = viperDemoTests;
+			productName = viperDemoTests;
+			productReference = 5160A1EE24D1A24700CD7B6D /* viperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5160A1F824D1A24700CD7B6D /* viperDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5160A20824D1A24700CD7B6D /* Build configuration list for PBXNativeTarget "viperDemoUITests" */;
+			buildPhases = (
+				5160A1F524D1A24700CD7B6D /* Sources */,
+				5160A1F624D1A24700CD7B6D /* Frameworks */,
+				5160A1F724D1A24700CD7B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5160A1FB24D1A24700CD7B6D /* PBXTargetDependency */,
+			);
+			name = viperDemoUITests;
+			productName = viperDemoUITests;
+			productReference = 5160A1F924D1A24700CD7B6D /* viperDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5160A1D024D1A24200CD7B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Phillip Kelly-Ayo";
+				TargetAttributes = {
+					5160A1D724D1A24200CD7B6D = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					5160A1ED24D1A24700CD7B6D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5160A1D724D1A24200CD7B6D;
+					};
+					5160A1F824D1A24700CD7B6D = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 5160A1D724D1A24200CD7B6D;
+					};
+				};
+			};
+			buildConfigurationList = 5160A1D324D1A24200CD7B6D /* Build configuration list for PBXProject "viperDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5160A1CF24D1A24200CD7B6D;
+			productRefGroup = 5160A1D924D1A24200CD7B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5160A1D724D1A24200CD7B6D /* viperDemo */,
+				5160A1ED24D1A24700CD7B6D /* viperDemoTests */,
+				5160A1F824D1A24700CD7B6D /* viperDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5160A1D624D1A24200CD7B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5160A1E824D1A24700CD7B6D /* LaunchScreen.storyboard in Resources */,
+				5160A1E524D1A24700CD7B6D /* Assets.xcassets in Resources */,
+				5160A1E324D1A24300CD7B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5160A1EC24D1A24700CD7B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5160A1F724D1A24700CD7B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5160A1D424D1A24200CD7B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5160A1E024D1A24300CD7B6D /* ViewController.swift in Sources */,
+				5160A1DC24D1A24300CD7B6D /* AppDelegate.swift in Sources */,
+				5160A1DE24D1A24300CD7B6D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5160A1EA24D1A24700CD7B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5160A1F324D1A24700CD7B6D /* viperDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5160A1F524D1A24700CD7B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5160A1FE24D1A24700CD7B6D /* viperDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5160A1F024D1A24700CD7B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5160A1D724D1A24200CD7B6D /* viperDemo */;
+			targetProxy = 5160A1EF24D1A24700CD7B6D /* PBXContainerItemProxy */;
+		};
+		5160A1FB24D1A24700CD7B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5160A1D724D1A24200CD7B6D /* viperDemo */;
+			targetProxy = 5160A1FA24D1A24700CD7B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5160A1E124D1A24300CD7B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5160A1E224D1A24300CD7B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5160A1E624D1A24700CD7B6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5160A1E724D1A24700CD7B6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5160A20024D1A24700CD7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5160A20124D1A24700CD7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5160A20324D1A24700CD7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyayo.viperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5160A20424D1A24700CD7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyayo.viperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5160A20624D1A24700CD7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyayo.viperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viperDemo.app/viperDemo";
+			};
+			name = Debug;
+		};
+		5160A20724D1A24700CD7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyayo.viperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viperDemo.app/viperDemo";
+			};
+			name = Release;
+		};
+		5160A20924D1A24700CD7B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyayo.viperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viperDemo;
+			};
+			name = Debug;
+		};
+		5160A20A24D1A24700CD7B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kellyayo.viperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viperDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5160A1D324D1A24200CD7B6D /* Build configuration list for PBXProject "viperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5160A20024D1A24700CD7B6D /* Debug */,
+				5160A20124D1A24700CD7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5160A20224D1A24700CD7B6D /* Build configuration list for PBXNativeTarget "viperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5160A20324D1A24700CD7B6D /* Debug */,
+				5160A20424D1A24700CD7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5160A20524D1A24700CD7B6D /* Build configuration list for PBXNativeTarget "viperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5160A20624D1A24700CD7B6D /* Debug */,
+				5160A20724D1A24700CD7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5160A20824D1A24700CD7B6D /* Build configuration list for PBXNativeTarget "viperDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5160A20924D1A24700CD7B6D /* Debug */,
+				5160A20A24D1A24700CD7B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5160A1D024D1A24200CD7B6D /* Project object */;
+}
